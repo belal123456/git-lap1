@@ -1,16 +1,12 @@
-class Greeter {
-  // Method to print "Hello, Java!"
-  printHelloJava() {
-    console.log("Hello, Java!");
+class HelloJava {
+  constructor() {
+    this.message = "Hello Java!";
   }
 
-  // Method to print "Hello Git!"
-  printHelloGit() {
-    console.log("Hello Git!");
+  printHelloJava() {
+    console.log(this.message);
   }
 }
 
-// Example usage:
-const greeter = new Greeter();
-greeter.printHelloJava(); // This will print "Hello, Java!" to the console
-greeter.printHelloGit(); // This will print "Hello Git!" to the console
+const greeter = new HelloJava();
+greeter.printHelloJava();
