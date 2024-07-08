@@ -1,10 +1,18 @@
-class Greeter {
-  // Method to print "Hello, ITI!"
+class HelloITI {
+  constructor() {
+    this.messageITI = "Hello ITI!";
+    this.messageGit = "Hello Git!";
+  }
+
   printHelloITI() {
-    console.log("Hello, ITI!");
+    console.log(this.messageITI);
+  }
+
+  printHelloGit() {
+    console.log(this.messageGit);
   }
 }
 
-// Example usage:
-const greeter = new Greeter();
-greeter.printHelloITI(); // This will print "Hello, ITI!" to the console
+const greeter = new HelloITI();
+greeter.printHelloITI();
+greeter.printHelloGit();
