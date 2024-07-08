@@ -3,6 +3,11 @@ class Greeter {
   printHelloJava() {
     console.log("Hello, Java!");
   }
+
+  // Method to print "Hello Git!"
+  printHelloGit() {
+    console.log("Hello Git!");
+  }
 }
 
 // Example usage:
