@@ -13,3 +13,4 @@ class Greeter {
 // Example usage:
 const greeter = new Greeter();
 greeter.printHelloJava(); // This will print "Hello, Java!" to the console
+greeter.printHelloGit(); // This will print "Hello Git!" to the console
